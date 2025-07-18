@@ -1,3 +1,4 @@
-export { Button } from "./components/ui/Button";
+export * from "./components/ui/Button";
+export * from "./components/ui/Label";
 
-export { cn } from "./utils/cn";
+export * from "./utils/cn";
