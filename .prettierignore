@@ -11,3 +11,6 @@
 # storybook
 *storybook.log
 storybook-static
+
+# semantic release
+CHANGELOG.md
