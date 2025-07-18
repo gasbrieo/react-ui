@@ -6,7 +6,7 @@ import PackageInfo from "../package.json";
 addons.setConfig({
   theme: create({
     base: "light",
-    brandTitle: `${PackageInfo.name}@${PackageInfo.version}`,
+    brandTitle: PackageInfo.name,
     brandUrl: PackageInfo.homepage,
   }),
 });

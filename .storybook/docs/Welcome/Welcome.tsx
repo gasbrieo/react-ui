@@ -1,14 +1,13 @@
-import pkg from "../../../package.json";
+import PackageInfo from "../../../package.json";
 
-const links = [{ label: "GitHub repo", href: pkg.homepage }];
+const links = [{ label: "GitHub repo", href: PackageInfo.homepage }];
 
 export const Welcome = () => {
   return (
     <div className="min-h-screen w-full bg-background text-foreground p-12">
       <div className="flex flex-col items-start gap-6 max-w-xl">
         <div>
-          <h1 className="text-4xl font-light">{pkg.name}</h1>
-          <p className="text-3xl font-bold mt-1">v{pkg.version}</p>
+          <h1 className="text-4xl font-light">{PackageInfo.name}</h1>
         </div>
 
         <div className="flex flex-col gap-3 text-sm">
