@@ -1,0 +1,32 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks";
+
+import { Label } from "./Label";
+import * as LabelStories from "./Label.stories";
+
+<Meta of={LabelStories} />
+
+# Label
+
+[Source code](https://github.com/gasbrieo/react-ui/tree/main/src/components/ui/Label)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Component API](#component-api)
+  - [Label `className`](#label-classname)
+
+## Overview
+
+<Canvas of={LabelStories.Default} />
+
+## Component API
+
+<ArgTypes />
+
+Additional props passed into `Label` will be forwarded along to the underlying label element.
+
+### Label `className`
+
+```jsx
+<Label className="custom-class">Label</Label>
+```

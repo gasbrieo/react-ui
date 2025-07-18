@@ -1,8 +1,11 @@
 # React UI
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/gasbrieo/react-ui)
+![Build](https://img.shields.io/github/actions/workflow/status/gasbrieo/react-ui/release.yml?branch=main)
 ![Sonar Quality Gate](https://img.shields.io/sonar/quality_gate/gasbrieo_react-ui?server=https%3A%2F%2Fsonarcloud.io)
 ![Sonar Coverage](https://img.shields.io/sonar/coverage/gasbrieo_react-ui?server=https%3A%2F%2Fsonarcloud.io)
+![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)
+![npm](https://img.shields.io/npm/v/react-ui)
 [![Storybook](https://img.shields.io/badge/Storybook-live-blue?logo=storybook)](https://react-ui-gasbrieo.netlify.app)
 
 A modern and customizable React component library built with **Tailwind CSS v4+**, **Radix UI**, and **shadcn/ui**.  
