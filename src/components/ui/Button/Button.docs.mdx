@@ -1,0 +1,77 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks";
+
+import { Button } from "./Button";
+import * as ButtonStories from "./Button.stories";
+
+<Meta of={ButtonStories} />
+
+# Button
+
+[Source code](https://github.com/gasbrieo/react-ui/tree/main/src/components/ui/Button)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Variants](#variants)
+- [Component API](#component-api)
+  - [Button `asChild`](#button-aschild)
+  - [Button `className`](#button-classname)
+  - [Button `size`](#button-size)
+  - [Button `variant`](#button-variant)
+
+## Overview
+
+<Canvas of={ButtonStories.Default} />
+
+## Component API
+
+<ArgTypes />
+
+Additional props passed into `Button` will be forwarded along to the underlying
+button element.
+
+### Button `asChild`
+
+```tsx
+<Button asChild>
+  <div>Div styled as button</div>
+</Button>
+```
+
+### Button `className`
+
+```jsx
+<Button className="custom-class">Submit</Button>
+```
+
+### Button `size`
+
+<Button size="sm">Small</Button>
+<Button>Default</Button>
+<Button size="lg">Large</Button>
+<Button size="icon">🔍</Button>
+
+```jsx
+<Button size="sm">Small</Button>
+<Button>Default</Button>
+<Button size="lg">Large</Button>
+<Button size="icon">🔍</Button>
+```
+
+### Button `variant`
+
+<Button variant="default">Default</Button>
+<Button variant="ghost">Ghost</Button>
+<Button variant="destructive">Destructive</Button>
+<Button variant="outline">Outline</Button>
+<Button variant="secondary">Secondary</Button>
+<Button variant="link">Link</Button>
+
+```jsx
+<Button variant="default">Default</Button>
+<Button variant="ghost">Ghost</Button>
+<Button variant="destructive">Destructive</Button>
+<Button variant="outline">Outline</Button>
+<Button variant="secondary">Secondary</Button>
+<Button variant="link">Link</Button>
+```
