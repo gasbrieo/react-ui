@@ -1,0 +1,32 @@
+import { ArgTypes, Canvas, Meta } from "@storybook/addon-docs/blocks";
+
+import { Input } from "./Input";
+import * as InputStories from "./Input.stories";
+
+<Meta of={InputStories} />
+
+# Input
+
+[Source code](https://github.com/gasbrieo/react-ui/tree/main/src/components/ui/Input)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Component API](#component-api)
+  - [Input `className`](#input-classname)
+
+## Overview
+
+<Canvas of={InputStories.Default} />
+
+## Component API
+
+<ArgTypes />
+
+Additional props passed into `Input` will be forwarded to the underlying input element.
+
+### Input `className`
+
+```tsx
+<Input className="custom-class" />
+```
