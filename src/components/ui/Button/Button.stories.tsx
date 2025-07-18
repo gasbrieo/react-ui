@@ -7,6 +7,9 @@ const meta = {
   title: "Components/Button",
   component: Button,
   argTypes: {
+    asChild: {
+      control: false,
+    },
     variant: {
       options: ["default", "destructive", "outline", "secondary", "ghost", "link"],
       control: { type: "select" },
@@ -17,9 +20,10 @@ const meta = {
     },
     children: {
       control: false,
+      description: "Content inside the button",
     },
-    asChild: {
-      control: false,
+    onClick: {
+      description: "Callback function called when the button is clicked",
     },
   },
   args: {
